@@ -5,5 +5,5 @@ VOLUME /tmp
 #WORKDIR /application/jenkins/deploy/src/main/docker
 #RUN pwd
 
-ADD service-users-1.0-SNAPSHOT.jar service-users.jar
-ENTRYPOINT ["java","-Xms200m","-Xmx300m","-jar","/service-users.jar"]
+ADD company-service-1.0-SNAPSHOT.jar company-service.jar
+ENTRYPOINT ["java","-Xms200m","-Xmx300m","-jar","/company-service.jar"]
